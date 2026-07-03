@@ -26,7 +26,7 @@ The standard and lite variants share the same high-level architecture. The main 
 | EFSNet | `efsnet_sceneflow.yaml`, `efsnet_kitti.yaml`, `efsnet_manual.yaml` | `[4, 4, 2]` |
 | EFSNet-lite | `efsnet_lite_kitti.yaml`, `efsnet_lite_manual.yaml` | `[1, 1, 1]` |
 
-`EXPANSE_RATIO` is separate from the repeat count. It controls the MobileNetV2-style inverted residual expansion ratio inside the aggregation blocks.
+The trained checkpoints are available here https://drive.google.com/drive/folders/1cr2hQol5IemUZT9XfSaYl1iiRRpuTA_X?usp=sharing
 
 ## Reported Results
 
@@ -83,13 +83,7 @@ data/
     zed_file_val.txt
 ```
 
-Manual dataset split lines use:
-
-```text
-left_image_path right_image_path disparity_numpy_path
-```
-
-The disparity path is loaded with `numpy.load`.
+If you need the manual data please kindly contact at my email izzunnafis@gmail.com
 
 ## Training
 
@@ -117,12 +111,6 @@ python tools/train.py \
   --extra_tag kitti_lite_finetune
 ```
 
-For distributed training:
-
-```bash
-torchrun --nnodes=1 --nproc_per_node=8 --rdzv_backend=c10d --rdzv_endpoint=localhost:23456 \
-  tools/train.py --dist_mode --cfg_file cfgs/efsnet/efsnet_sceneflow.yaml
-```
 
 ## Evaluation
 
@@ -198,7 +186,7 @@ If this code or paper is useful for your work, please cite:
 
 ## Acknowledgements
 
-This implementation builds on the OpenStereo stereo matching framework and the LightStereo line of efficient stereo models. Please also cite the relevant OpenStereo/LightStereo work when using this repository:
+This implementation builds on the OpenStereo stereo matching framework and the LightStereo line of efficient stereo models
 
 ```bibtex
 @article{guo2023openstereo,
