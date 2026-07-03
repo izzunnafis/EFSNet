@@ -1,0 +1,17 @@
+# Install torch/torchvision separately for your CUDA version:
+# https://pytorch.org/get-started/locally/
+numpy
+pillow
+tqdm
+easydict
+tensorboard
+six
+pyyaml
+opencv-python
+timm==0.4.12
+scikit-image
+thop
+matplotlib
+h5py
+einops
+yacs
