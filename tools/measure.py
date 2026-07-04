@@ -1,5 +1,3 @@
-# @Time    : 2024/3/1 11:17
-# @Author  : zhangchenming
 import time
 import torch
 import argparse

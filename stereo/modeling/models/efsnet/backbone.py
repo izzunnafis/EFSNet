@@ -1,5 +1,3 @@
-# @Time    : 2024/3/10 10:21
-# @Author  : zhangchenming
 import timm
 import torch
 import torch.nn as nn

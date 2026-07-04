@@ -1,5 +1,3 @@
-# @Time    : 2024/2/9 11:39
-# @Author  : zhangchenming
 from stereo.modeling.trainer_template import TrainerTemplate
 from .efsnet import EFSNet
 

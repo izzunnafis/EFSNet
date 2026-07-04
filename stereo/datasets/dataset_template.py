@@ -1,5 +1,3 @@
-# @Time    : 2023/11/9 16:50
-# @Author  : zhangchenming
 import os
 import random
 import torch.utils.data as torch_data

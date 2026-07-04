@@ -1,5 +1,3 @@
-# @Time    : 2023/8/29 02:01
-# @Author  : zhangchenming
 import random
 import torch
 import numpy as np

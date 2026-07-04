@@ -1,5 +1,3 @@
-# @Time    : 2023/8/28 00:06
-# @Author  : zhangchenming
 import torch.nn as nn
 
 

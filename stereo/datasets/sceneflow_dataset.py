@@ -1,5 +1,3 @@
-# @Time    : 2023/8/26 14:23
-# @Author  : zhangchenming
 import os
 import numpy as np
 from PIL import Image

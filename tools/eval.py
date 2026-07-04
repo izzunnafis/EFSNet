@@ -1,5 +1,3 @@
-# @Time    : 2023/10/17 16:18
-# @Author  : zhangchenming
 import sys
 import os
 import argparse

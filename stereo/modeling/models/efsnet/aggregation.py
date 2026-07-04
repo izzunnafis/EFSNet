@@ -1,5 +1,3 @@
-# @Time    : 2024/3/11 11:29
-# @Author  : zhangchenming
 import torch.nn as nn
 import torch.nn.functional as F
 from stereo.modeling.common.basic_block_2d import BasicConv2d, BasicDeconv2d

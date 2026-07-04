@@ -1,5 +1,3 @@
-# @Time    : 2024/1/20 03:13
-# @Author  : zhangchenming
 import os
 import time
 import glob

@@ -1,5 +1,3 @@
-# @Time    : 2023/8/28 22:28
-# @Author  : zhangchenming
 import os
 import yaml
 import random

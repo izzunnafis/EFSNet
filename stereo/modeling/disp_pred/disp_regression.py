@@ -1,5 +1,3 @@
-# @Time    : 2023/11/9 17:41
-# @Author  : zhangchenming
 import numpy as np
 import torch
 import torch.nn as nn
